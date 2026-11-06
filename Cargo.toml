@@ -1,0 +1,28 @@
+[package]
+name = "vetis-otel"
+version = "0.1.0-beta.1"
+authors = ["Rogerio Araújo <rogerio.araujo@gmail.com>"]
+edition = "2024"
+repository = "https://github.com/vetis-server/vetis-otel"
+homepage = "https://github.com/vetis-server/vetis-otel"
+description = "Very Tiny Server Opentelemetry support"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["http", "modules", "otel", "telemetry"]
+publish = true
+rust-version = "1.85.0"
+
+[dependencies]
+#opentelemetry = "0.33.0"
+#opentelemetry-http = "0.33.0"
+#opentelemetry-otlp = "0.33.0"
+#opentelemetry_sdk = "0.33.0"
+#opentelemetry-semantic-conventions = "0.33.0"
+#serde = { version = "1.0.228", features = ["derive"] }
+#typetag.workspace = true
+#vetis.workspace = true
+
+[patch.crates-io]
+vetis = { path = "../vetis/vetis" }
+vetis-flash = { path = "../vetis-flash" }
+vetis-tokio = { path = "../vetis-tokio" }
