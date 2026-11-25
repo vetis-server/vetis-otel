@@ -10,7 +10,7 @@ readme = "README.md"
 license = "MIT OR Apache-2.0"
 keywords = ["http", "modules", "otel", "telemetry"]
 publish = true
-rust-version = "1.85.0"
+rust-version = "1.86.0"
 
 [dependencies]
 #opentelemetry = "0.33.0"

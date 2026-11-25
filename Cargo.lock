@@ -8,7 +8,7 @@ version = "0.1.0-beta.1"
 
 [[patch.unused]]
 name = "vetis"
-version = "0.1.7-beta.6"
+version = "0.1.7"
 
 [[patch.unused]]
 name = "vetis-flash"
@@ -16,4 +16,4 @@ version = "0.1.0-beta.1"
 
 [[patch.unused]]
 name = "vetis-tokio"
-version = "0.1.2-beta.8"
+version = "0.1.2"
